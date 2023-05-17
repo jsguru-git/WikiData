@@ -24,7 +24,6 @@ function App() {
       if (data.movieList.length !== 0) {
         setData(data.movieList.map(row => ({item: row[0], itemLabel: row[1]})));
         setIsLoading(false);
-        console.log('display existing records ~~~~~~~~~~~~~~~~~~')
       } else {
         onRefresh();
       }      
@@ -41,7 +40,7 @@ function App() {
 
   const onRefresh = () => {
     const endpointUrl = 'https://query.wikidata.org/sparql';
-    const sparqlQuery = `#Movies released in 2017
+    const sparqlQuery = `#Movies released in 2013
       SELECT DISTINCT ?item ?itemLabel WHERE {
         ?item wdt:P31 wd:Q11424.
         ?item wdt:P577 ?pubdate.
