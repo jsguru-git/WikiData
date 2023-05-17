@@ -1,4 +1,4 @@
-# WikiData (movies release after 2013)
+# WikiData (movies released after 2013)
 SPARQL query project. Front-end is React, Back-end is Flask
 
 ## How to run
