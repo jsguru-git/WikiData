@@ -5,3 +5,7 @@
 .title {
   padding: 50px 10px 40px
 }
+
+.right-align {
+  float: right;
+}
