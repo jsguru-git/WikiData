@@ -28,4 +28,4 @@ SELECT DISTINCT ?item ?itemLabel WHERE {
 }
 ```
 ## User Interface
-<img src="Screenshot.png" width=600>
+<img src="Screenshot.png" width=700>
